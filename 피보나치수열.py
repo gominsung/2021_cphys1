@@ -7,5 +7,5 @@ def fibon(n):
         for i in range(n-2):
             f_n=a[-1]+a[-2]
             a.append(f_n)
-    return f_n
+        return f_n
 
