@@ -1,3 +1,4 @@
+
  # 숙제
 def homework(r,f_0):               
     a=0

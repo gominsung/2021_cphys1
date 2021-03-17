@@ -1,5 +1,5 @@
  # 숙제
-def homework(r,f_0):               
+def logis(r,f_0):               
     a=0
     c=f_0
     for i in range(1,21):
@@ -8,6 +8,6 @@ def homework(r,f_0):
         b="r=%f,f_0=%f,n=%d일 경우의 함수값: %f" %(r,c,a,f)
         print(b)
         f_0=f
-homework(4.5,0.5)
-homework(4.5,0.51) 
-homework(4.5,0.501)         
+logis(4.5,0.5)
+logis(4.5,0.51) 
+logis(4.5,0.501)         
