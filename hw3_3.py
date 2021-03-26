@@ -20,6 +20,7 @@ def draw(n):
     x=np.arange(-20,20,0.2)
     y1=[]
     plt.subplot(411)
+    plt.title("Taylor approximation of sinc function")
     for i in x:
         y1.append(sincsum(i,n))
     plt.plot(x,y1,color="skyblue",label="Talor expension n=%i" %n)
