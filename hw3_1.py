@@ -35,8 +35,10 @@ for i in x:
 
 for i in x:
     z.append(np.pi/4)
+plt.title("Leibniz Pi formula")    
 plt.plot(x,y,color='skyblue',label="Leibniz Pi formula for π")
 plt.plot(x,z,color="orange",label="π/4")
 plt.xlabel("n")
+plt.ylabel("$f_n$")
 plt.legend()
 plt.show()
