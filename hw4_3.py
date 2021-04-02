@@ -21,8 +21,8 @@ for i in a:
     b.append(dervif(i))
 for i in a:
     c.append(dervig(i))    
-plt.plot(a,c,color="blue",label="sin funtion's derivative") 
-plt.plot(a,b,color="red",label="cos funtion's derivative")
+plt.plot(a,b,color="blue",label="sin funtion's derivative") 
+plt.plot(a,c,color="red",label="cos funtion's derivative")
 plt.legend(loc="upper right")
 plt.title("Trigonometric Function ver.finite difference")
 plt.show()        
@@ -57,8 +57,8 @@ c=[]
 for i in a:
     c.append(misc.derivative(np.cos,i,dx=0.001))
 
-plt.plot(a,b,color="red",label="sin funtion's derivative")
-plt.plot(a,c,color="blue",label="cos funtion's derivative")
+plt.plot(a,b,color="blue",label="sin funtion's derivative")
+plt.plot(a,c,color="red",label="cos funtion's derivative")
 plt.legend(loc="upper right")
 plt.title("Trigonometric Function ver.scipy.misc.derivative")
 plt.xlabel("x")
