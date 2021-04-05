@@ -26,7 +26,6 @@ b=[]
 c1=[]
 c2=[]
 c3=[]
-c4=[]
 
 for i in x:
     b.append(errf(i))
@@ -40,8 +39,6 @@ for i in x:
 for i in x:
     c3.append(taylor(10,i))
 
-for i in x:
-    c4.append(taylor(30,i))
 
 
 
