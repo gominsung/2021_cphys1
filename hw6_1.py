@@ -39,7 +39,7 @@ plt.show()
 
 #The monvement of Pendulum at Small Amplitude
 plt.title("The movement of Pendulum at Small Amplitude")
-plt.plot(t,solf2(0.1,1)[:,0],label="Pendulum(small oscillations) at w0=0.1,$theta0=1$")
+plt.plot(t,solf2(0.1,1)[:,0],label="Pendulum(small oscillations) at w0=1,$theta0=0.1$")
 plt.xlabel("t")
 plt.legend(loc="upper right")
 plt.show()
