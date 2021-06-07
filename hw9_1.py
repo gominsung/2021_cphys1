@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 
-
+#외판원 문제
 
 x=[0, 10, 9, 5, 10, 5, 4, 2, 8, 9]
 y=[10, 0, 6, 8, 4, 3, 2, 7, 3, 2]
